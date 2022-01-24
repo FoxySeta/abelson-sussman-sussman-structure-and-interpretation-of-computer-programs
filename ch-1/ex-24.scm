@@ -5,6 +5,15 @@
 ; primes near 1000? Do your data bear this out? Can you explain any discrepancy
 ; you find?
 
+(define (expmod base exp m)
+  (cond ((= exp 0) 1)
+        ((even? exp)
+         (remainder (square (expmod base (/ exp 2) m))
+                    m))
+        (else
+         (remainder (* base (expmod base (- exp 1) m))
+                    m))))
+
 (define (fermat-test n)
   (define (try-it a)
     (= (expmod a n n) a))
