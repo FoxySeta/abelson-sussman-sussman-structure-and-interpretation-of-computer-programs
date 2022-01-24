@@ -1,4 +1,4 @@
-; Exercise 1.20.  The process that a procedure generates is of course dependent
+; Exercise 1.20. The process that a procedure generates is of course dependent
 ; on the rules used by the interpreter. As an example, consider the iterative
 ; gcd procedure given above. Suppose we were to interpret this procedure using
 ; normal-order evaluation, as discussed in section 1.1.5. (The
