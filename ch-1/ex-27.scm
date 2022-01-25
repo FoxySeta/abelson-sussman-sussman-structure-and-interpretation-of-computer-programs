@@ -21,9 +21,9 @@
           (else #f)))
   (aux 2 n))
 
-(complete-fermat-test 561)
-(complete-fermat-test 1105)
-(complete-fermat-test 1729)
-(complete-fermat-test 2465)
-(complete-fermat-test 2821)
-(complete-fermat-test 6601)
+(complete-fermat-test 561) ; #t
+(complete-fermat-test 1105) ; #t
+(complete-fermat-test 1729) ; #t
+(complete-fermat-test 2465) ; #t
+(complete-fermat-test 2821) ; #t
+(complete-fermat-test 6601) ; #t
